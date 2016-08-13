@@ -1,0 +1,23 @@
+{
+	"name": "hexo-deployer-netlify",
+	"version": "0.0.1",
+	"description": "Netlify deployer plugin of Hexo.",
+	"main": "index",
+	"directories": {
+		"lib": "./lib"
+	},
+	"repository": "piktaszuikis/hexo-deployer-netlify",
+	"homepage": "https://hexo.io/",
+	"keywords": [
+		"hexo",
+		"netlify",
+		"deploy",
+		"deployer"
+	],
+	"author": "Piktas Zuikis <piktas.zuikis@inbox.lt> (http://piktas-zuikis.netlify.io/)",
+	"license": "WTFPL",
+	"dependencies": {
+		"netlify": "^1.0.0",
+		"hexo-fs": "^0.1.5"
+	}
+}
