@@ -23,7 +23,7 @@ deploy:
 
 - **token**: Netlify personal access token (you can create one at https://app.netlify.com/applications). It should be a long base64 string, i.e. 'aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00aa00'
 - **site_id**: Your site api ID. Should be an UID, something like '11bb11bb-11bb-11bb-11bb-11bb11bb11bb'. You can find it in "Site Info" section, at the bottom of https://app.netlify.com/sites/my-blog-name.
-- **zip**: To deploy with zip , please set the `true` . Default settings is disabled ( zip: `false` ) .
+- **zip**: If set to `true`, deploys using 'zip' method (zips public directory and then uploads archive to the netlify). This setting is optional.
 
 ## License
 
