@@ -18,7 +18,6 @@
 	"author": "Piktas Zuikis <piktas.zuikis@inbox.lt> (http://piktas-zuikis.netlify.io/)",
 	"license": "WTFPL",
 	"dependencies": {
-		"archiver": "^3.1.1",
 		"netlify": "^3.0.0",
 		"hexo-fs": "^2.0.0"
 	}
